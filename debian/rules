@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ #--with autoreconf
+
+#override_dh_autoreconf:
+#	NOCONFIGURE=1 ./autogen.sh
+
+override_dh_install:
+	dh_install --list-missing
+
