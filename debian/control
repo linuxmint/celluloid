@@ -1,0 +1,35 @@
+Source: celluloid
+Section: video
+Priority: optional
+Maintainer: Xu Zhen <xuzhen@fastmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               appstream-util,
+               autotools-dev,
+               autoconf-archive,
+               intltool (>= 0.40.6),
+               pkg-config,
+               libepoxy-dev,
+               libglib2.0-dev (>= 2.44),
+               libgtk-3-dev (>= 3.22.23),
+               libmpv-dev (>= 0.29.0)
+Standards-Version: 4.4.0
+Homepage: https://github.com/gnome-mpv/gnome-mpv
+
+Package: celluloid
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: youtube-dl
+Breaks: gnome-mpv (<= 0.16)
+Replaces: gnome-mpv (<= 0.16)
+Description: simple GTK+ frontend for mpv
+ Celluloid (formerly GNOME MPV) interacts with mpv via the client API exported
+ by libmpv, allowing access to mpv's powerful playback capabilities.
+
+Package: gnome-mpv
+Architecture: all
+Depends: celluloid
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
