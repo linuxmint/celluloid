@@ -12,7 +12,8 @@ Build-Depends: debhelper (>= 9),
                libepoxy-dev,
                libglib2.0-dev (>= 2.44),
                libgtk-3-dev (>= 3.22.23),
-               libmpv-dev (>= 0.29.0)
+               libmpv-dev (>= 0.29.0),
+               meson
 Standards-Version: 4.4.0
 Homepage: https://github.com/gnome-mpv/gnome-mpv
 
