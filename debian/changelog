@@ -1,4 +1,4 @@
-celluloid (0.19-linuxmint1) ulyana; urgency=medium
+celluloid (0.19linuxmint1) ulyana; urgency=medium
 
   * Add dependency on ffmpegthumbnailer
   * Add build-dep on meson
