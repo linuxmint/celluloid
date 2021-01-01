@@ -1,3 +1,9 @@
+celluloid (0.20-linuxmint2) ulyssa; urgency=medium
+
+  * l10n: Fix Finnish translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 01 Jan 2021 12:04:58 +0000
+
 celluloid (0.20-linuxmint1) ulyssa; urgency=medium
 
   * 0.20
