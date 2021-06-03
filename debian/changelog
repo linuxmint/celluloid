@@ -1,3 +1,11 @@
+celluloid (0.21-linuxmint1) uma; urgency=medium
+
+  * Add dependency on ffmpegthumbnailer
+  * Add build-dep on meson
+  * l10n: Add translations to desktop file
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 03 Jun 2021 11:25:26 +0100
+
 celluloid (0.17-1~bionic2) bionic; urgency=low
 
   * New upstream release.
