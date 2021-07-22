@@ -1,4 +1,4 @@
-celluloid (0.21-linuxmint1) uma; urgency=medium
+celluloid (0.21linuxmint1) uma; urgency=medium
 
   * Add dependency on ffmpegthumbnailer
   * Add build-dep on meson
