@@ -1,3 +1,10 @@
+celluloid (0.21+mint2) faye; urgency=medium
+
+  [ gnome-mpv ]
+  * view: Cast playlist position to gint before using it to set the property
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 14 Sep 2023 12:15:43 +0100
+
 celluloid (0.21+mint1) faye; urgency=medium
 
   * Add dependency on ffmpegthumbnailer
